@@ -11,6 +11,10 @@ This directory contains per-instance results for the computational comparisons i
 | `lbbd_v4_instance_results.csv` | LBBD-v4 results for all 1,800 instances |
 | `lbbd_v4_summary.csv` | Aggregated LBBD-v4 statistics |
 
+## Objective scale
+
+Objective values and bounds are reported as sums of scenario makespans, rather than scenario averages. With equally weighted scenarios, this is the SAA objective multiplied by the number of scenarios. Divide both bounds by `scenarios` to recover the average-makespan scale. This positive scaling does not change the set of optimal solutions or relative optimality gaps.
+
 ## Column definitions
 
 - `instance_path`: Relative path to the benchmark instance.
