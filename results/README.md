@@ -13,7 +13,7 @@ This directory contains per-instance results for the computational comparisons i
 
 ## Objective scale
 
-Objective values and bounds are reported as sums of scenario makespans, rather than scenario averages. With equally weighted scenarios, this is the SAA objective multiplied by the number of scenarios. Divide both bounds by `scenarios` to recover the average-makespan scale. This positive scaling does not change the set of optimal solutions or relative optimality gaps.
+Objective values and bounds are scenario sums. Divide by the number of scenarios to obtain the SAA average.
 
 ## Column definitions
 
