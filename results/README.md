@@ -24,5 +24,4 @@ This directory contains per-instance results for the computational comparisons i
 - `optimal`: Indicator of proven optimality (1 if optimal, 0 otherwise).
 - `iterations`: Number of callback iterations.
 - `cut_count`: Total number of generated cuts.
-- `cp_calls`: Number of CP calls.
 - `subproblem_time_seconds`: Cumulative time attributed to subproblem processing and cut generation, in seconds.
